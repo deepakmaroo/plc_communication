@@ -3,6 +3,14 @@
 - How to create bindings between tags and properties
 - Basic techniques and tools to test your PLC program
 
+# IDE
+- Visual Studio 2022
+- Framework: Dot Net code 7.0
+
+# Operating System
+-  Windows 10/11
+-  Linux Ubuntu
+
 # Reference library (libplctag)
   Donwload libplctg.NET https://github.com/libplctag/libplctag.NET/tree/main.
   libplctag is an open source C library for Linux, Windows and macOS using EtherNet/IP or Modbus TCP to read and write tags in PLCs.
@@ -30,5 +38,10 @@
         PlcType = PlcType (ControlLogix)
         Timeout = timeout in second
     };
+
+  # Read TAG
+  - strTag.Read()
+  - intTag.Read()
+    
   
   
