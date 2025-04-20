@@ -4,7 +4,10 @@
 - Basic techniques and tools to test your PLC program
 
 # Reference library (libplctag)
-  https://github.com/libplctag/libplctag.NET/tree/main
+  Donwload libplctg.NET https://github.com/libplctag/libplctag.NET/tree/main.
+  libplctag is an open source C library for Linux, Windows and macOS using EtherNet/IP or Modbus TCP to read and write tags in PLCs.
+
+  libplctag.NET provides .NET wrapper packages for libplctag, and publishes them to Nuget.org.
 
 # Initialize Tags
   # String type TAG
