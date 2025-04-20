@@ -7,17 +7,25 @@
   https://github.com/libplctag/libplctag.NET/tree/main
 
 # Initialize Tags
-  # String type TAg
-  public static Tag<StringPlcMapper, string> strTag;
-  # Integer type TAg
-  public static Tag<DintPlcMapper, int> intTag;
+  # String type TAG
+    public static Tag<StringPlcMapper, string> strTag = new Tag<StringPlcMapper, string>()
+    {
+        Name = "TAG_NAME",
+        Gateway = "PLC IP Address (i.e 192.168.0.100)",
+        Path = "communication path (Default is -> 1,0)",
+        Protocol = Protocol Type (Modbus/ab_eip),
+        PlcType = PlcType (ControlLogix)
+        Timeout = timeout in second
+    };
+  # Integer type TAG
+    public static Tag<DintPlcMapper, int> intTag;
+    {
+        Name = "TAG_NAME",
+        Gateway = "PLC IP Address (i.e 192.168.0.100)",
+        Path = "communication path (Default is -> 1,0)",
+        Protocol = Protocol Type (Modbus/ab_eip),
+        PlcType = PlcType (ControlLogix)
+        Timeout = timeout in second
+    };
   
-  public static Tag<StringPlcMapper, string> strTag = new Tag<StringPlcMapper, string>()
-  {
-      Name = "TAG1_NAME",
-      Gateway = "PLC IP Address (i.e 192.168.0.100)",
-      Path = "communication path (Default is -> 1,0)",
-      Protocol = Protocol Type (Modbus/ab_eip),
-      PlcType = PlcType (ControlLogix)
-      Timeout = timeout in second
-  };
+  
