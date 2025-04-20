@@ -1,7 +1,7 @@
 # plc_communication
 - How to connect to a ControlLogix via Ethernet / IP
 - How to create bindings between tags and properties
-- Basic techniques and tools to test your PLC program
+- Basic techniques to test/read your PLC program
 
 # IDE
 - Visual Studio 2022
@@ -42,6 +42,7 @@
   # Read TAG
   - strTag.Read()
   - intTag.Read()
-    
+
+  # Tested with ControlLogix PLC
   
   
